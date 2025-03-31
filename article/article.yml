@@ -8,6 +8,8 @@ groq:
 eureka:
   instance:
     prefer-ip-address: true
+    ip-address: 172.31.57.64
+    non-secure-port: 8092
   client:
     register-with-eureka: true
     fetch-registry: true
